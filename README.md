@@ -3,12 +3,12 @@ Template for an OpenCL program with the traditional vector addition example. Pla
 
 ## Installation
 Tested with MSYS2 on Windows. If using a similar setup, you can just install the following:
-```
+```bash
 pacman -S mingw-w64-x86_64-opencl-headers mingw-w64-x86_64-opencl-clhpp mingw-w64-x86_64-opencl-icd 
 ```
 
 You can build the program using CMake.
-```
+```bash
 # Clone the repository
 git clone https://github.com/fadi-wassaf/OpenCL-template
 cd OpenCL-template
